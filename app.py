@@ -8,6 +8,7 @@ app = Flask(__name__)
 def index():
     if request.method == 'POST':
         pesel = request.form.get('pesel')
+        pesel = pesel.strip()  # cut leading and trailing whitespaces
         if pesel:
             pesel_data = validate_pesel(pesel)
             pesel_valid = pesel_data.get('valid')
