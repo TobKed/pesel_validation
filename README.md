@@ -6,7 +6,7 @@ Flask based online application to validate PESEL number.
 
 ### Features
  * strip whitespace around input
- * check is number is valid
+ * check is number valid
  * show gender and birth date
  * support birth dates within the range 1800 - 2299
 
