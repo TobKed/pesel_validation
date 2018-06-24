@@ -37,8 +37,8 @@ def validate_pesel(pesel):
 
 def get_gender(number_str):
     if int(number_str) % 2:
-        return "Mężczyzna"
-    return "Kobieta"
+        return "Man"
+    return "Woman"
 
 
 def get_birthdate(number_str):
